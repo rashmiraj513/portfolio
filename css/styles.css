@@ -77,7 +77,7 @@ body {
   font-size: 1.6rem;
   text-decoration: none;
   color: var(--color-gray-4);
-  margin: 0 10px;
+  margin-left: 2rem;
 }
 
 .social a:hover, #header #logo a:hover {
@@ -222,8 +222,14 @@ footer {
   margin-right: 2px !important;
 }
 
+.link-refer {
+  letter-spacing: 2px;
+  color: var(--color-gray-4);
+}
+
 .link-refer a {
   font-size: 16px;
+  text-decoration: none;
   color: var(--color-sky);
 }
 
@@ -263,5 +269,23 @@ footer {
 
   .display-2 {
     font-size: 0.8rem;
+  }
+}
+
+@media(max-width: 375px) {
+
+  .link-refer, .link-refer a {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 335px) {
+
+  .project-title a {
+    font-size: 1rem;
+  }
+
+  .link-refer, .link-refer a {
+    font-size: 12px;
   }
 }
