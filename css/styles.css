@@ -35,9 +35,6 @@ body {
   line-height: 1.625;
   background-color: var(--color-black);
   color: var(--color-gray-4);
-}
-
-body {
   width: 90%;
   display: block;
   margin: auto;
@@ -55,6 +52,15 @@ body {
   text-transform: uppercase;
   color: var(--color-gray-4);
   text-decoration: none;
+}
+
+#logo img {
+  height: 40px;
+  border-radius: 50px;
+}
+
+#logo img:hover {
+  color: var(--color-blue);
 }
 
 .heading-1 {
