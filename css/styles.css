@@ -80,19 +80,24 @@ body {
   margin-left: 2rem;
 }
 
-.social a:hover, #header #logo a:hover {
+.social a:hover,
+#header #logo a:hover {
   color: var(--color-blue);
   transition: 0.3s ease-in-out;
 }
 
 /* About Section */
 
-#about, #blogs, #skills, #projects {
+#about,
+#blogs,
+#skills,
+#projects {
   width: 70%;
   margin: auto;
 }
 
-#about .about-section, #about .about-heading {
+#about .about-section,
+#about .about-heading {
   margin: 2rem 0;
 }
 
@@ -211,6 +216,7 @@ footer {
   font-size: 1rem;
   letter-spacing: 2px;
   font-family: 'Poppins', serif;
+  text-align: justify;
   color: var(--color-gray-5);
 }
 
@@ -227,13 +233,13 @@ footer {
   color: var(--color-gray-4);
 }
 
-.link-refer a {
+.display-2 a {
   font-size: 16px;
   text-decoration: none;
   color: var(--color-sky);
 }
 
-.link-refer a:hover {
+.display-2 a:hover {
   color: var(--color-blue);
   transition: 0.3s all ease-in-out;
 }
@@ -253,12 +259,15 @@ footer {
   .title {
     display: none;
   }
-  
+
   .social {
     margin: 0.4rem 0;
   }
 
-  #about, #blogs, #skills, #projects {
+  #about,
+  #blogs,
+  #skills,
+  #projects {
     width: 90%;
     margin: auto;
   }
@@ -274,7 +283,8 @@ footer {
 
 @media(max-width: 375px) {
 
-  .link-refer, .link-refer a {
+  .display-2,
+  .display-2 a {
     font-size: 14px;
   }
 }
@@ -285,7 +295,8 @@ footer {
     font-size: 1rem;
   }
 
-  .link-refer, .link-refer a {
+  .display-2,
+  .display-2 a {
     font-size: 12px;
   }
 }
