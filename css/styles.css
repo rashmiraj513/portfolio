@@ -154,10 +154,6 @@ abbr {
   color: var(--color-cyan);
 }
 
-.iconholder div {
-  cursor: grab;
-}
-
 /* Projects Section */
 
 #projects .projects-section {
@@ -226,11 +222,6 @@ footer {
 
 .m-0 {
   margin-right: 2px !important;
-}
-
-.link-refer {
-  letter-spacing: 2px;
-  color: var(--color-gray-4);
 }
 
 .display-2 a {
