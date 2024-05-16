@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [
+    "Rashmi Raj",
+    "Rashmi Raj Portfolio",
+    "Rashmi Raj IIT Patna Portfolio"
+  ],
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "description": "A portfolio website using NodeJS",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
